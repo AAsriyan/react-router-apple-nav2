@@ -8,11 +8,13 @@ import WatchOS from "./WatchOS";
 import Bands from "./Bands";
 import WatchAccessories from "./WatchAccessories";
 import WatchCompare from "./WatchCompare";
+import NavBar from "../NavBar";
 
 const Watch = () => {
   return (
     <div>
-      <ul>
+      <NavBar />
+      <ul className="watch-nav">
         <NavLink to="/watch/apple-watch-series-4">Apple Watch Series 4</NavLink>
         <NavLink to="/watch/apple-watch-nike+">Apple Watch Nike+</NavLink>
         <NavLink to="/watch/apple-watch-hermes">Apple Watch Hermes</NavLink>

@@ -10,11 +10,13 @@ import MacMini from "./MacMini";
 import MacAccessories from "./MacAccessories";
 import Mojave from "./Mojave";
 import MacCompare from "./MacCompare";
+import NavBar from "../NavBar";
 
 const Mac = () => {
   return (
     <div>
-      <ul>
+      <NavBar />
+      <ul className="mac-nav">
         <NavLink to="/mac/macbook">MacBook</NavLink>
         <NavLink to="/mac/macbook-air">MacBook Air</NavLink>
         <NavLink to="/mac/macbook-pro">MacBook Pro</NavLink>

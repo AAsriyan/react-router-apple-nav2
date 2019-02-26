@@ -7,11 +7,13 @@ import AirPods from "./AirPods";
 import iPodTouch from "./iPodTouch";
 import MusicAccessories from "./MusicAccessories";
 import GiftCards from "./GiftCards";
+import NavBar from "../NavBar";
 
 const Music = () => {
   return (
     <div>
-      <ul>
+      <NavBar />
+      <ul className="music-nav">
         <NavLink to="/music/apple-music">Apple Music</NavLink>
         <NavLink to="/music/itunes">iTunes</NavLink>
         <NavLink to="/music/homepod">HomePod</NavLink>

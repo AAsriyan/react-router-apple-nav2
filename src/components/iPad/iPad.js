@@ -8,12 +8,14 @@ import ApplePencil from "./ApplePencil";
 import SmartKeyboard from "./SmartKeyboard";
 import iPadAccessories from "./iPadAccessories";
 import iPadCompare from "./iPadCompare";
+import NavBar from "../NavBar";
 import { Route, NavLink } from "react-router-dom";
 
 const iPad = () => {
   return (
     <div>
-      <ul>
+      <NavBar />
+      <ul className="ipad-nav">
         <NavLink to="/ipad/ipad-pro">iPad Pro</NavLink>
         <NavLink to="/ipad/ipad-pro-10">iPad Pro 10.5"</NavLink>
         <NavLink to="/ipad/ipad-9">iPad 9.7"</NavLink>

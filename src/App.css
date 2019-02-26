@@ -8,4 +8,43 @@
 a {
   text-decoration: none;
   color: black;
+  font-family: "SF Pro Text";
+  font-size: 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(45, 45, 45, 0.98);
+  margin: 0 -10px;
+  padding: 10px 0;
+}
+
+.navbar > a {
+  font-size: 16px;
+  color: white;
+}
+
+.navbar > a:hover {
+  color: lightgray;
+}
+
+.navbar > a.active {
+  color: lightgray;
+}
+
+.apple-icon {
+  color: white;
+  font-size: 18px;
+}
+
+.ipad-nav,
+.iphone-nav,
+.mac-nav,
+.watch-nav,
+.tv-nav,
+.music-nav {
+  display: flex;
+  justify-content: space-between;
 }

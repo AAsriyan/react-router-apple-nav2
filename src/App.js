@@ -14,8 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Apple</h1>
-        <Home />
+        <Route exact path="/" component={Home} />
         <Route path="/mac" component={Mac} />
         <Route path="/ipad" component={iPad} />
         <Route path="/iphone" component={iPhone} />

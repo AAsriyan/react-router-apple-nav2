@@ -8,11 +8,13 @@ import ios12 from "./ios12";
 import AirPods from "./AirPods";
 import iPhoneAccessories from "./iPhoneAccessories";
 import iPhoneCompare from "./iPhoneCompare";
+import NavBar from "../NavBar";
 
 const iPhone = () => {
   return (
     <div>
-      <ul>
+      <NavBar />
+      <ul className="iphone-nav">
         <NavLink to="/iphone/iphone-xs">iPhone Xs</NavLink>
         <NavLink to="/iphone/iphone-xr">iPhone Xr</NavLink>
         <NavLink to="/iphone/iphone-8">iPhone 8</NavLink>

@@ -5,11 +5,13 @@ import AppleTv from "./AppleTv";
 import TvAccessories from "./TvAccessories";
 import TvApp from "./TvApp";
 import TvCompare from "./TvCompare";
+import NavBar from "../NavBar";
 
 const Tv = () => {
   return (
     <div>
-      <ul>
+      <NavBar />
+      <ul className="tv-nav">
         <NavLink to="/tv/apple-tv-4k">Apple TV 4K</NavLink>
         <NavLink to="/tv/apple-tv">Apple TV</NavLink>
         <NavLink to="/tv/tv-app">TV App</NavLink>
