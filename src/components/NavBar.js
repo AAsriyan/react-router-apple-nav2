@@ -1,11 +1,16 @@
 import React from "react";
 import { Route, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faApple } from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
   return (
     <div>
       <nav>
-        <ul>
+        <ul className="navbar">
+          <NavLink exact to="/">
+            <FontAwesomeIcon icon={faApple} className="apple-icon" />
+          </NavLink>
           <NavLink exact to="/mac">
             Mac
           </NavLink>
